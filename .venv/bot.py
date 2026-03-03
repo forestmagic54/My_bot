@@ -10,7 +10,7 @@ from aiohttp import web
 
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
-MY_USER_ID = 5204660456
+MY_USER_ID = int(os.getenv("MY_USER_ID"))
 expenses = {}
 bot = Bot(token = TOKEN)
 dp = Dispatcher()

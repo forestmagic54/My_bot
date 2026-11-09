@@ -1,3 +1,14 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# Игнорировать виртуальное окружение
+.venv/
+venv/
+env/
+
+# Игнорировать настройки IDE (PyCharm)
+.idea/
+
+# Игнорировать файлы с секретами (если вы храните токен в них)
+.env
+config.py
